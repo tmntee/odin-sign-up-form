@@ -85,19 +85,22 @@ div.account-section {
     margin: 50px 50px;
 }
 
-.account-information {
+.form-section {
+    padding: 25px;
+    background-color: var(--white-color);
+}
+
+.form-section>p {
+    font-size: 1.5em;
+}
+
+.form-inputs {
     display: flex;
     width: 100%;
 
-    padding: 0px 20px;
-    background-color: var(--white-color);
     color: black;
 
     font-weight: 600;
-}
-
-.form-section {
-
 }
 
 .form-column {
@@ -105,7 +108,8 @@ div.account-section {
     flex-direction: column;
 
     color: #636565;
-    padding: 20px 55px 40px 0px;
+    margin-right: 25px;
+    margin-top: 30px;
     width: 30%;
 }
 
@@ -119,13 +123,17 @@ div.account-section {
     margin-bottom: 5px;
     padding: 3px;
     border: solid 1px rgb(202, 199, 199);
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
-form>input {
+.submit-button input {
     background-color: #ff646f;
     padding: 10px;
-    border: solid 2px #c04b52;
-    border-radius: 4px;
+    border: none;
+    border-radius: 6px;
+    margin: 20px 50px;
+    padding: 10px 40px;
+
+    font-size: 1em;
 }
 
