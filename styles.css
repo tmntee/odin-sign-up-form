@@ -26,7 +26,7 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.decorative-section a:link {
+a:link {
     color: #ff646f;
     text-decoration: none;
 }
@@ -80,7 +80,7 @@ div.account-section {
 
 .account-section>p {
     font-weight: 600;
-    color: #ff646f;
+    color: #585858;
     
     margin: 50px 50px;
 }
@@ -89,6 +89,7 @@ div.account-section {
     padding: 20px 50px;
     background-color: var(--white-color);
     box-shadow: rgb(185, 183, 183) 2px 4px 10px;
+    color: #585858;
 }
 
 .form-section>p {
@@ -100,7 +101,7 @@ div.account-section {
     display: flex;
     width: 100%;
 
-    color: black;
+    color: #585858;
 
     font-weight: 600;
 }
@@ -123,8 +124,8 @@ div.account-section {
 
 .form-column input {
     margin-bottom: 5px;
-    padding: 3px;
-    border: solid 2px rgb(202, 199, 199);
+    padding: 4px;
+    border: solid 1px rgb(202, 199, 199);
     border-radius: 5px;
 }
 
