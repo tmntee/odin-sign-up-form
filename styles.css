@@ -10,41 +10,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    --white-color: #fdfefe;
+}
+
+html {
+    height: 100vh;
 }
 
 body {
     display: flex;
-    height: 100vh;
-    width: 100vh;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.decorative-section a:link {
+    color: #ff646f;
+    text-decoration: none;
 }
 
 div.decorative-section {
     background-image: url("./photo.jpg");
     background-size: cover;
-    width: 40%;
+    width: 30%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    color: var(--white-color);
 }
 
 div.logo {
     display: flex;
+    justify-content: center;
+
     margin-top: 20vh;
+    padding: 1em;
+    width: 100%;
+
+    background-color: #00000063
 }
 
 div.logo h1 {
     font-family: 'space_grotesklight', Arial, Helvetica, sans-serif;
-    font-size: 3em;
-    color: #fdfefe;
+    font-size: 5em;
+
 
     align-self: center;
     text-align: center;
 }
 
-div.
+div.decorative-section p {
+    margin-top: 515px;
+}
 
 div.account-section {
-    width: 60%;
+    
 }
 
