@@ -86,12 +86,14 @@ div.account-section {
 }
 
 .form-section {
-    padding: 25px;
+    padding: 20px 50px;
     background-color: var(--white-color);
+    box-shadow: rgb(185, 183, 183) 2px 4px 10px;
 }
 
 .form-section>p {
-    font-size: 1.5em;
+    font-size: 1.25em;
+    padding: 10px 10px 10px 0px;
 }
 
 .form-inputs {
@@ -109,7 +111,7 @@ div.account-section {
 
     color: #636565;
     margin-right: 25px;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 30%;
 }
 
@@ -122,8 +124,17 @@ div.account-section {
 .form-column input {
     margin-bottom: 5px;
     padding: 3px;
-    border: solid 1px rgb(202, 199, 199);
+    border: solid 2px rgb(202, 199, 199);
     border-radius: 5px;
+}
+
+.form-column input:focus {
+    border: solid 2px rgb(54, 152, 226);
+    box-shadow: gray 2px 2px 3px;
+}
+
+.form-column input:invalid {
+    border: solid 2px red;
 }
 
 .submit-button input {
@@ -131,7 +142,7 @@ div.account-section {
     padding: 10px;
     border: none;
     border-radius: 6px;
-    margin: 20px 50px;
+    margin: 30px 50px;
     padding: 10px 40px;
 
     font-size: 1em;
